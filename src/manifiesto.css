@@ -1,0 +1,46 @@
+.principalMa{
+    height: 90vw;
+}
+
+.manifiesto{
+    width: 50%;
+    position: absolute;
+    text-align: justify;
+    padding: 10%;
+}
+
+.fondoMa{
+    position: absolute;
+    width: 100%;
+}
+
+.fondoMa2{
+    position: absolute;
+    width: 100%;
+    margin-top: 50vw;
+}
+
+.imagenesM{
+    width: 50%;
+    height: 60vw;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.imagenesM img{
+    width: 100%;
+}
+
+.ftManifiesto{
+    position: absolute;
+    margin-top: 65vw;
+    padding-left: 10%;
+}
+
+.ftManifiesto h1{
+    margin-bottom: 2vw;
+}
+
+.ftManifiesto h3{
+    margin-top: 2vw;
+}

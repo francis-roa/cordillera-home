@@ -1,0 +1,27 @@
+.footer{
+    background-image: url(./recursos/banner/fondo_footer.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 10vw;
+}
+
+.footermenu1{
+    display: flex;
+    flex-direction: row;
+}
+
+.footermenu1 ul{
+    width: 50%;
+}
+
+ul{
+    list-style: none;
+}
+
+.footermenu2{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10vw;
+}

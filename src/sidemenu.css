@@ -1,0 +1,64 @@
+#btn{
+    display: none;
+}
+
+.icono1{
+    margin-top: 5px;
+    margin-left: 5px;
+    position: fixed;
+    z-index: 10;
+    width: 5%;
+}
+
+.icono1 label img{
+    width: 100%;
+}
+
+.icono2{
+    margin-top: 5px;
+    margin-left: 5px;
+    position: fixed;
+    z-index: 10;
+    width: 5%;
+    visibility: none;
+    opacity: 0;
+}
+
+.icono2 label img{
+    width: 100%;
+}
+
+.smenu{
+    position: fixed;
+    z-index: 9;
+    display: none;
+}
+
+#btn:checked~ .icono1{
+    visibility: none;
+    opacity: 0;
+}
+
+#btn:checked~ .icono2{
+    visibility: visible;
+    opacity: 1;
+}
+
+#btn:checked~ .smenu{
+    width: 100%;
+    padding: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+}
+
+#btn:checked~ #izquierda{
+    width: 50%;
+    background-color: #ffb968;
+}
+
+#btn:checked~ #derecha{
+    width: 50%;
+    background-color: #fdeed7;
+}

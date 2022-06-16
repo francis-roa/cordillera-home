@@ -1,24 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import './header.css';
+import './lineup.css';
+import './artistas.css';
+import './entradas.css';
+import './manifiesto.css';
+import './comunidad.css';
+import './footer.css';
+import './sidemenu.css';
+import Header from './components/Header';
+import Lineup from './components/Lineup';
+import Artistas from './components/Artistas';
+import Entradas from './components/Entradas';
+import Manifiesto from './components/Manifiesto';
+import Comunidad from './components/Comunidad';
+import Footer from './components/Footer';
+import Sidemenu from './components/Sidemenu';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Sidemenu/>
+       <Header/>
+       <Lineup/>
+       <Artistas/>
+       <Entradas/>
+       <Manifiesto/>
+       <Comunidad/>
+       <Footer/>
+    </>
   );
 }
 

@@ -1,0 +1,64 @@
+.cuerpo{
+    background-color: #2f313a;
+    text-align: center;
+    padding: 5% 30%;
+}
+
+.cuerpo2{
+    display: flex;
+    flex-direction: column;
+}
+
+.cuerpo2 div{
+    padding-top: 5%;
+}
+
+.entGeneral{
+    display: flex;
+    flex-direction: row;
+}
+
+.entGeneral .etapa{
+    color: #ffb968;
+}
+
+.entVIP{
+    display: flex;
+    flex-direction: row;
+}
+
+.entVIP .etapa{
+    color: #fdeed7;
+    list-style-type: none;
+}
+
+.estatus{
+    background-color: #ff6600;
+    width: 50%;
+}
+
+.estatus li{
+    color:#fdeed7;
+    list-style-type: none;
+    border-bottom: 2px;
+    border-bottom-color: #ffb968;
+    border-bottom-style: solid;
+}
+
+.etapa{
+    width: 50%;
+}
+
+.etapa li{
+    border-bottom: 2px;
+    border-bottom-color: #ffb968;
+    border-bottom-style: solid;
+}
+
+@media  screen and (min-width:769px){
+    .cuerpo2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

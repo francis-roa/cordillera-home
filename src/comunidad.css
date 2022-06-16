@@ -1,0 +1,22 @@
+.fondofooter{
+    width: 100%;
+}
+
+.txfooter{
+    background-image: url(./recursos/banner/fondo_footer.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 10vw;
+    padding-left: 10vw;
+    padding-right: 50vw;
+    padding-bottom: 10vw;
+}
+
+.logoscont{
+    padding: 10vw;
+    background-color: #1e2022;
+}
+
+.logos{
+    width: 100%;
+}
